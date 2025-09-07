@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Personal Website</title>
+    <title>Your Name - PhD Student</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation -->
@@ -24,7 +24,13 @@
                     <a href="#about" class="nav-link">About</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#research" class="nav-link">Research</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#publications" class="nav-link">Publications</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#teaching" class="nav-link">Teaching</a>
                 </li>
                 <li class="nav-item">
                     <a href="#contact" class="nav-link">Contact</a>
@@ -42,30 +48,26 @@
     <section id="home" class="hero">
         <div class="hero-container">
             <div class="hero-content">
-                <h1 class="hero-title">Hello, I'm <span class="highlight">Your Name</span></h1>
-                <p class="hero-subtitle">Full Stack Developer & Creative Problem Solver</p>
+                <h1 class="hero-title">Your Name</h1>
+                <p class="hero-subtitle">PhD Student in [Your Field]</p>
+                <p class="hero-affiliation">[Your University] • [Department]</p>
                 <p class="hero-description">
-                    I craft beautiful, functional web experiences and bring ideas to life through code.
-                    Passionate about creating solutions that make a difference.
+                    Researching [Your Research Area] with a focus on [Specific Focus]. 
+                    Interested in the intersection of [Field 1] and [Field 2], with applications 
+                    in [Application Area].
                 </p>
-                <div class="hero-buttons">
-                    <a href="#projects" class="btn btn-primary">View My Work</a>
-                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                <div class="hero-links">
+                    <a href="#research" class="link-button">Research</a>
+                    <a href="#publications" class="link-button">Publications</a>
+                    <a href="cv.pdf" class="link-button" target="_blank">CV</a>
                 </div>
             </div>
             <div class="hero-image">
                 <div class="profile-placeholder">
-                    <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="100" cy="100" r="100" fill="url(#gradient)"/>
-                        <circle cx="100" cy="80" r="30" fill="white" opacity="0.3"/>
-                        <path d="M70 130 Q100 110 130 130 Q130 160 100 160 Q70 160 70 130Z" fill="white" opacity="0.3"/>
-                        <defs>
-                            <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                                <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
-                                <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
-                            </linearGradient>
-                        </defs>
-                    </svg>
+                    <!-- Professional placeholder - you can replace with your photo -->
+                    <div class="academic-placeholder">
+                        <div class="placeholder-initial">YN</div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -74,30 +76,102 @@
     <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
-            <h2 class="section-title">About Me</h2>
+            <h2 class="section-title">About</h2>
             <div class="about-content">
                 <div class="about-text">
                     <p>
-                        I'm a passionate developer with a love for creating digital experiences that combine 
-                        functionality with beautiful design. With expertise in modern web technologies, 
-                        I enjoy tackling complex problems and turning ideas into reality.
+                        I am a PhD student in [Your Field] at [Your University], working under the supervision 
+                        of [Advisor Name]. My research focuses on [Research Area], specifically investigating 
+                        [Specific Research Questions or Problems].
                     </p>
                     <p>
-                        When I'm not coding, you can find me exploring new technologies, contributing to 
-                        open source projects, or enjoying the outdoors. I believe in continuous learning 
-                        and always strive to improve my craft.
+                        Prior to my doctoral studies, I completed my [Previous Degree] in [Field] at [University]. 
+                        My academic journey has been driven by a passion for [What Drives You] and a commitment 
+                        to advancing knowledge in [Your Field].
                     </p>
-                    <div class="skills">
-                        <h3>Skills & Technologies</h3>
-                        <div class="skill-tags">
-                            <span class="skill-tag">JavaScript</span>
-                            <span class="skill-tag">React</span>
-                            <span class="skill-tag">Node.js</span>
-                            <span class="skill-tag">Python</span>
-                            <span class="skill-tag">HTML/CSS</span>
-                            <span class="skill-tag">Git</span>
-                            <span class="skill-tag">SQL</span>
-                            <span class="skill-tag">MongoDB</span>
+                    <p>
+                        I am particularly interested in [Specific Interests] and how they can be applied to 
+                        solve real-world problems in [Application Domain]. My work bridges theory and practice, 
+                        combining rigorous analysis with practical implementation.
+                    </p>
+                    <div class="academic-info">
+                        <h3>Research Interests</h3>
+                        <ul class="research-interests">
+                            <li>Primary Research Area 1</li>
+                            <li>Primary Research Area 2</li>
+                            <li>Secondary Research Area 1</li>
+                            <li>Methodological Interest</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section id="research" class="research">
+        <div class="container">
+            <h2 class="section-title">Research</h2>
+            <div class="research-overview">
+                <p class="research-description">
+                    My doctoral research investigates [Main Research Question/Problem]. This work contributes 
+                    to the field by [Your Contribution] and has implications for [Practical Applications].
+                </p>
+            </div>
+            <div class="research-projects">
+                <div class="research-card">
+                    <h3>Dissertation Research</h3>
+                    <h4>[Working Title of Your Dissertation]</h4>
+                    <p>
+                        [Brief description of your main research project. What problem are you solving? 
+                        What methods are you using? What are the expected outcomes?]
+                    </p>
+                    <div class="research-details">
+                        <p><strong>Advisor:</strong> [Advisor Name]</p>
+                        <p><strong>Status:</strong> [Current Status - e.g., "Data Collection Phase"]</p>
+                        <p><strong>Expected Completion:</strong> [Date]</p>
+                    </div>
+                </div>
+
+                <div class="research-card">
+                    <h3>Collaborative Research</h3>
+                    <h4>[Title of Secondary Project]</h4>
+                    <p>
+                        [Description of any collaborative research projects, side projects, or research 
+                        you've done with other faculty/students.]
+                    </p>
+                    <div class="research-details">
+                        <p><strong>Collaborators:</strong> [Names and Affiliations]</p>
+                        <p><strong>Role:</strong> [Your Role in the Project]</p>
+                    </div>
+                </div>
+
+                <div class="research-card">
+                    <h3>Research Methods & Tools</h3>
+                    <div class="methods-list">
+                        <div class="method-category">
+                            <h5>Quantitative Methods</h5>
+                            <ul>
+                                <li>Statistical Analysis (R, Python)</li>
+                                <li>Experimental Design</li>
+                                <li>Data Mining/Machine Learning</li>
+                            </ul>
+                        </div>
+                        <div class="method-category">
+                            <h5>Qualitative Methods</h5>
+                            <ul>
+                                <li>Interviews & Surveys</li>
+                                <li>Content Analysis</li>
+                                <li>Case Studies</li>
+                            </ul>
+                        </div>
+                        <div class="method-category">
+                            <h5>Technical Skills</h5>
+                            <ul>
+                                <li>Programming (Python, R, MATLAB)</li>
+                                <li>Database Management</li>
+                                <li>Visualization Tools</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -105,98 +179,100 @@
         </div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
+    <!-- Publications Section -->
+    <section id="publications" class="publications">
         <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="project-placeholder">
-                            <svg width="100%" height="200" viewBox="0 0 300 200" fill="none">
-                                <rect width="300" height="200" fill="url(#projectGrad1)"/>
-                                <circle cx="150" cy="100" r="40" fill="white" opacity="0.2"/>
-                                <defs>
-                                    <linearGradient id="projectGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
-                                        <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
-                                        <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
-                                    </linearGradient>
-                                </defs>
-                            </svg>
+            <h2 class="section-title">Publications</h2>
+            <div class="publications-content">
+                <div class="publication-category">
+                    <h3>Journal Articles</h3>
+                    <div class="publication-list">
+                        <div class="publication-item">
+                            <p class="pub-authors"><strong>Your Name</strong>, Co-Author Name. (Year). "Title of Your Paper." <em>Journal Name</em>, Volume(Issue), pages. DOI: xx.xxxx/xxxxx</p>
+                            <div class="pub-links">
+                                <a href="#" class="pub-link">PDF</a>
+                                <a href="#" class="pub-link">DOI</a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>Project One</h3>
-                        <p>A modern web application built with React and Node.js. Features include user authentication, real-time updates, and responsive design.</p>
-                        <div class="project-tech">
-                            <span>React</span>
-                            <span>Node.js</span>
-                            <span>MongoDB</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link">Live Demo</a>
-                            <a href="#" class="project-link">GitHub</a>
+                        
+                        <div class="publication-item">
+                            <p class="pub-authors">Co-Author Name, <strong>Your Name</strong>, Another Author. (Year). "Another Paper Title." <em>Another Journal</em>, Volume(Issue), pages.</p>
+                            <div class="pub-links">
+                                <a href="#" class="pub-link">PDF</a>
+                                <a href="#" class="pub-link">DOI</a>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="project-placeholder">
-                            <svg width="100%" height="200" viewBox="0 0 300 200" fill="none">
-                                <rect width="300" height="200" fill="url(#projectGrad2)"/>
-                                <rect x="50" y="50" width="200" height="100" fill="white" opacity="0.2" rx="10"/>
-                                <defs>
-                                    <linearGradient id="projectGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
-                                        <stop offset="0%" style="stop-color:#fa709a;stop-opacity:1" />
-                                        <stop offset="100%" style="stop-color:#fee140;stop-opacity:1" />
-                                    </linearGradient>
-                                </defs>
-                            </svg>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>Project Two</h3>
-                        <p>An innovative mobile-first application that solves real-world problems. Built with modern frameworks and best practices.</p>
-                        <div class="project-tech">
-                            <span>Vue.js</span>
-                            <span>Python</span>
-                            <span>PostgreSQL</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link">Live Demo</a>
-                            <a href="#" class="project-link">GitHub</a>
+                <div class="publication-category">
+                    <h3>Conference Proceedings</h3>
+                    <div class="publication-list">
+                        <div class="publication-item">
+                            <p class="pub-authors"><strong>Your Name</strong>, Co-Author. (Year). "Conference Paper Title." In <em>Proceedings of Conference Name</em> (pp. xx-xx). Location: Publisher.</p>
+                            <div class="pub-links">
+                                <a href="#" class="pub-link">PDF</a>
+                                <a href="#" class="pub-link">Slides</a>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="project-placeholder">
-                            <svg width="100%" height="200" viewBox="0 0 300 200" fill="none">
-                                <rect width="300" height="200" fill="url(#projectGrad3)"/>
-                                <polygon points="150,60 120,140 180,140" fill="white" opacity="0.2"/>
-                                <defs>
-                                    <linearGradient id="projectGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
-                                        <stop offset="0%" style="stop-color:#a8edea;stop-opacity:1" />
-                                        <stop offset="100%" style="stop-color:#fed6e3;stop-opacity:1" />
-                                    </linearGradient>
-                                </defs>
-                            </svg>
+                <div class="publication-category">
+                    <h3>Working Papers & Preprints</h3>
+                    <div class="publication-list">
+                        <div class="publication-item">
+                            <p class="pub-authors"><strong>Your Name</strong>. (Year). "Working Paper Title." <em>Under Review at Journal Name</em>.</p>
+                            <div class="pub-links">
+                                <a href="#" class="pub-link">Draft</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="project-content">
-                        <h3>Project Three</h3>
-                        <p>A creative solution that demonstrates advanced programming concepts and clean code architecture. Focuses on performance and scalability.</p>
-                        <div class="project-tech">
-                            <span>JavaScript</span>
-                            <span>Express</span>
-                            <span>Redis</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link">Live Demo</a>
-                            <a href="#" class="project-link">GitHub</a>
-                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teaching Section -->
+    <section id="teaching" class="teaching">
+        <div class="container">
+            <h2 class="section-title">Teaching</h2>
+            <div class="teaching-content">
+                <div class="teaching-overview">
+                    <p>
+                        I am passionate about teaching and have experience in both classroom instruction 
+                        and mentoring undergraduate students in research projects.
+                    </p>
+                </div>
+                
+                <div class="teaching-experience">
+                    <div class="teaching-role">
+                        <h3>Teaching Assistant</h3>
+                        <h4>[Course Name] - [University Name]</h4>
+                        <p class="teaching-period">[Semester/Year]</p>
+                        <p>
+                            [Description of your teaching responsibilities, what you taught, 
+                            any innovations you brought to the course, student feedback, etc.]
+                        </p>
+                    </div>
+
+                    <div class="teaching-role">
+                        <h3>Guest Lecturer</h3>
+                        <h4>[Course Name] - [University Name]</h4>
+                        <p class="teaching-period">[Semester/Year]</p>
+                        <p>
+                            [Description of guest lectures you've given, topics covered, etc.]
+                        </p>
+                    </div>
+
+                    <div class="teaching-role">
+                        <h3>Research Mentor</h3>
+                        <h4>Undergraduate Research Program</h4>
+                        <p class="teaching-period">[Period]</p>
+                        <p>
+                            [Description of any undergraduate students you've mentored, 
+                            projects they worked on, outcomes, etc.]
+                        </p>
                     </div>
                 </div>
             </div>
@@ -206,34 +282,32 @@
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
+            <h2 class="section-title">Contact</h2>
             <div class="contact-content">
                 <div class="contact-text">
-                    <p>I'm always interested in hearing about new opportunities and interesting projects. 
-                    Whether you have a question or just want to say hi, feel free to reach out!</p>
+                    <p>I welcome opportunities to discuss my research, potential collaborations, 
+                    or academic positions. Please feel free to reach out.</p>
                 </div>
-                <div class="contact-links">
-                    <a href="mailto:your.email@example.com" class="contact-link">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-                            <polyline points="22,6 12,13 2,6"/>
-                        </svg>
-                        your.email@example.com
-                    </a>
-                    <a href="https://linkedin.com/in/yourprofile" class="contact-link">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
-                            <rect x="2" y="9" width="4" height="12"/>
-                            <circle cx="4" cy="4" r="2"/>
-                        </svg>
-                        LinkedIn
-                    </a>
-                    <a href="https://github.com/yourusername" class="contact-link">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
-                        </svg>
-                        GitHub
-                    </a>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h4>Email</h4>
+                        <p><a href="mailto:your.email@university.edu">your.email@university.edu</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <h4>Office</h4>
+                        <p>[Building Name], Room [Number]<br>
+                        [University Name]<br>
+                        [Address]</p>
+                    </div>
+                    <div class="contact-item">
+                        <h4>Academic Profiles</h4>
+                        <div class="academic-links">
+                            <a href="https://scholar.google.com/citations?user=yourID" target="_blank">Google Scholar</a>
+                            <a href="https://orcid.org/0000-0000-0000-0000" target="_blank">ORCID</a>
+                            <a href="https://www.researchgate.net/profile/yourprofile" target="_blank">ResearchGate</a>
+                            <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -242,7 +316,7 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 Your Name. Built with ❤️ and hosted on GitHub Pages.</p>
+            <p>&copy; 2024 Your Name • PhD Student • [Your University]</p>
         </div>
     </footer>
 
